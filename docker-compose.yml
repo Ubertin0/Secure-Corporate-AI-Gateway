@@ -1,0 +1,14 @@
+services:
+  nextchat:
+    image: yidadaa/chatgpt-next-web:latest
+    container_name: nextchat
+    restart: always
+    network_mode: "host"
+    environment:
+      - OPENAI_API_KEY=<YOUR_OPENROUTER_KEY>
+      - BASE_URL=https://openrouter.ai/api
+      - CUSTOM_MODELS=+arcee-ai/trinity-large-preview:free,+z-ai/glm-4.5-air:free,+stepfun/step-3.5-flash:free,+nvidia/nemotron-3-nano-30b-a3b:free,+meta-llama/llama-3.3-70b-instruct:free,+openrouter/free
+      - PROXY_URL=socks5://127.0.0.1:40000
+      - HIDE_USER_API_KEY=1
+      - CODE=user1,user2
+
