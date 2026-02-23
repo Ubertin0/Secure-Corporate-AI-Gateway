@@ -62,8 +62,8 @@ Prerequisites: A clean Linux VPS (US region recommended) and Docker/Docker Compo
 (Note: Use the copy button on the right of the code block to avoid formatting errors).
 
 ```bash
-git clone https://github.com/Ubertin0/personal-ai-hub.git
-cd personal-ai-hub
+git clone https://github.com/Ubertin0/Secure-Corporate-AI-Gateway.git
+cd Secure-Corporate-AI-Gateway
 ```
 
 2. Configure environment variables:
